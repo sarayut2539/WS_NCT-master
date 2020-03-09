@@ -81,6 +81,7 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="WS_GET_DOCTOR_MARIJUANA.asmx" />
     <Content Include="Web References\WS_FDA_MAIL\FDA_MAIL.disco" />
     <Content Include="Web References\WS_NCT_INSERT\Reference.map">
       <Generator>MSDiscoCodeGenerator</Generator>
@@ -113,6 +114,10 @@
     <Compile Include="Class\BAO_FEE.vb" />
     <Compile Include="Class\DAO.vb" />
     <Compile Include="Class\DAO_MARIJUANA.vb" />
+    <Compile Include="WS_GET_DOCTOR_MARIJUANA.asmx.vb">
+      <DependentUpon>WS_GET_DOCTOR_MARIJUANA.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Linq\LINQ_FEE.designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

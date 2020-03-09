@@ -576,7 +576,13 @@ Namespace BAO_FEE
             dt = Queryds(command)
 
         End Sub
-
+        Public Function SP_GET_DOCTOR(ByVal CITIZEN_ID As String) As DataTable
+            Dim dt As New DataTable
+            Dim command As String = " "
+            command = " exec [dbo].[SP_FOR_WS_GET_DOCTOR] @CITIZEN_ID='" & CITIZEN_ID & "' "
+            dt = Queryds(command)
+            Return dt
+        End Function
     End Class
 
 End Namespace
