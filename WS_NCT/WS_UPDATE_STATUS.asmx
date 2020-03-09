@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="VB" CodeBehind="WS_UPDATE_STATUS.asmx.vb" Class="WS_NCT.WS_UPDATE_STATUS_PAY" %>

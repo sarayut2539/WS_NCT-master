@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 13, 54.875" name="LINQ_MAREJUANA">
+  <DataContextMoniker Name="/LINQ_MAREJUANADataContext" />
+  <nestedChildShapes>
+    <classShape Id="4b60a2ad-fc0e-4c5b-827e-61800ac46554" absoluteBounds="0.75, 0.75, 2, 53.8845849609375">
+      <DataClassMoniker Name="/LINQ_MAREJUANADataContext/MARIJUANA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="420a532b-7e59-4d2e-bfa4-1c7e1fb9e7a6" absoluteBounds="0.765, 1.21, 1.9700000000000002, 53.3245849609375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dbc5530f-ea16-4b59-9df2-f4ce7ec27643" absoluteBounds="3.75, 0.75, 2, 7.5399397786458326">
+      <DataClassMoniker Name="/LINQ_MAREJUANADataContext/MARIJUANA_RENEW" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eed82786-527d-4b74-83fa-6f70e89f8632" absoluteBounds="3.765, 1.21, 1.9700000000000002, 6.979939778645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3996281c-094d-45f2-8b28-fb0eef81e5be" absoluteBounds="6.75, 0.75, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/LINQ_MAREJUANADataContext/FILE_ATTACH" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6193dde3-3df6-40d7-ac1e-917bbd2fe62a" absoluteBounds="6.765, 1.21, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dfaf9f66-032c-4014-b45d-c6de938cbb31" absoluteBounds="10.75, 2.875, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/LINQ_MAREJUANADataContext/MAS_TEMPLATE_PROCESS" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f56ac0ff-2ef7-49d5-ae1e-35cc9ec8ccc5" absoluteBounds="10.765, 3.3350000000000009, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7e694c0d-192c-418e-ae9a-142f4f0e13e3" absoluteBounds="10.625, 0.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/LINQ_MAREJUANADataContext/LOG_ERROR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a10340e3-dc91-40ce-a0d1-0e6922f71abd" absoluteBounds="10.64, 0.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

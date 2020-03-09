@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://pertento.fda.moph.go.th/Certificate_narcotic/WS_UPDATE_PAYMENT_CER.asmx?wsdl" docRef="http://pertento.fda.moph.go.th/Certificate_narcotic/WS_UPDATE_PAYMENT_CER.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://pertento.fda.moph.go.th/Certificate_narcotic/WS_UPDATE_PAYMENT_CER.asmx" xmlns:q1="http://tempuri.org/" binding="q1:WS_UPDATE_PAYMENT_CERSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://pertento.fda.moph.go.th/Certificate_narcotic/WS_UPDATE_PAYMENT_CER.asmx" xmlns:q2="http://tempuri.org/" binding="q2:WS_UPDATE_PAYMENT_CERSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="WS_NCT_WS_NCT_INSERT_XML_NCT_INSERT_XML" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://164.115.28.105/WS_INSERT_XML/WS_INSERT_XML/NCT_INSERT_XML.asmx</Value>
+    </Setting>
+    <Setting Name="WS_NCT_WS_NCT_INSERT_WS_NCT_INSERT" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://164.115.28.105/WS_INSERT/WS_INSERT/WS_NCT_INSERT.asmx</Value>
+    </Setting>
+    <Setting Name="WS_NCT_WS_FDA_MAIL_FDA_MAIL" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://164.115.28.108/Mail/FDA_MAIL.asmx</Value>
+    </Setting>
+    <Setting Name="WS_NCT_WS_NCT_INSERT_XML_LCN_NCT_INSERT_XML_LCN" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://172.17.0.100/FDA_INSERT_XML/WS_INSERT_XML/NCT_INSERT_XML_LCN.asmx</Value>
+    </Setting>
+    <Setting Name="WS_NCT_WS_UPDATE_PAYMENT_CER_WS_UPDATE_PAYMENT_CER" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://pertento.fda.moph.go.th/Certificate_narcotic/WS_UPDATE_PAYMENT_CER.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

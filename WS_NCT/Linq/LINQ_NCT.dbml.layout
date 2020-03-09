@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="LINQ_NCT">
+  <DataContextMoniker Name="/LINQ_NCTDataContext" />
+  <nestedChildShapes>
+    <classShape Id="9c1141b7-fd35-4d7a-a00d-95b94bcd75be" isExpanded="false" absoluteBounds="0.5, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/LINQ_NCTDataContext/LICENSE_LOCATION" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ba7294c8-0a70-4e60-b051-62179549b2cb" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 69.093302408854157" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="847196f8-ff08-4861-8e7e-494c7c06d94b" isExpanded="false" absoluteBounds="0.5, 1.125, 2, 0.45">
+      <DataClassMoniker Name="/LINQ_NCTDataContext/YORSOR4" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7e48658e-30db-402b-86a8-1ff72924f02b" absoluteBounds="0.51499999999999968, 1.585, 1.9700000000000002, 49.8631591796875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="502ae258-b78b-4d1a-9a78-0eb0697e6cbe" isExpanded="false" absoluteBounds="0.5, 3.25, 2, 0.45">
+      <DataClassMoniker Name="/LINQ_NCTDataContext/RENEW_REQUEST" />
+      <nestedChildShapes>
+        <elementListCompartment Id="414aead3-f63d-43ec-b507-2ee2ac22f461" absoluteBounds="0.51499999999999968, 3.71, 1.9700000000000002, 52.1707763671875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="48f90c40-35b9-4a4f-8b95-08cf53e18bdd" isExpanded="false" absoluteBounds="0.5, 2.625, 2, 0.45">
+      <DataClassMoniker Name="/LINQ_NCTDataContext/SUBSTITUTE_REQUEST" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4dac6eda-b175-42eb-9b20-227132cd5930" absoluteBounds="0.51499999999999968, 3.085, 1.9700000000000002, 52.363077799479164" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="446e2b4c-2b01-48e7-8a84-9ac8c431de91" isExpanded="false" absoluteBounds="0.5, 1.75, 2, 0.45">
+      <DataClassMoniker Name="/LINQ_NCTDataContext/OVERUNIT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c6e6cb09-cdd2-46d7-8482-344d127a45ca" absoluteBounds="0.51499999999999968, 2.21, 1.9700000000000002, 55.824503580729164" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="099672e8-6f80-4d1c-b9cb-83acc30ca9ca" isExpanded="false" absoluteBounds="0.5, 4.375, 2, 0.45">
+      <DataClassMoniker Name="/LINQ_NCTDataContext/LOG_XML_EXPORT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ffe1b11f-d4fa-425a-91cc-d84092214be2" absoluteBounds="0.51499999999999968, 4.835, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

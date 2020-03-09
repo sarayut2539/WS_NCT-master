@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="NCT_INSERT_LCN_FOLDER">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xml_str" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="filename" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Year" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NCT_INSERT_LCN_FOLDERResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="NCT_INSERT_LCN_FOLDERResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NCT_INSERT_LCN_FOLDER_NO_RETURN">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xml_str" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="filename" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Year" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NCT_INSERT_LCN">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xml_str" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="filename" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NCT_INSERT_LCNResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="NCT_INSERT_LCNResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="NCT_INSERT_LCN_FOLDERSoapIn">
+    <wsdl:part name="parameters" element="tns:NCT_INSERT_LCN_FOLDER" />
+  </wsdl:message>
+  <wsdl:message name="NCT_INSERT_LCN_FOLDERSoapOut">
+    <wsdl:part name="parameters" element="tns:NCT_INSERT_LCN_FOLDERResponse" />
+  </wsdl:message>
+  <wsdl:message name="NCT_INSERT_LCN_FOLDER_NO_RETURNSoapIn">
+    <wsdl:part name="parameters" element="tns:NCT_INSERT_LCN_FOLDER_NO_RETURN" />
+  </wsdl:message>
+  <wsdl:message name="NCT_INSERT_LCNSoapIn">
+    <wsdl:part name="parameters" element="tns:NCT_INSERT_LCN" />
+  </wsdl:message>
+  <wsdl:message name="NCT_INSERT_LCNSoapOut">
+    <wsdl:part name="parameters" element="tns:NCT_INSERT_LCNResponse" />
+  </wsdl:message>
+  <wsdl:portType name="NCT_INSERT_XML_LCNSoap">
+    <wsdl:operation name="NCT_INSERT_LCN_FOLDER">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">ใบอนุญาตสถานที่_แยกโฟเดอร์ตามปี</wsdl:documentation>
+      <wsdl:input message="tns:NCT_INSERT_LCN_FOLDERSoapIn" />
+      <wsdl:output message="tns:NCT_INSERT_LCN_FOLDERSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="NCT_INSERT_LCN_FOLDER_NO_RETURN">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">ใบอนุญาตสถานที่_แยกโฟเดอร์ตามปี</wsdl:documentation>
+      <wsdl:input message="tns:NCT_INSERT_LCN_FOLDER_NO_RETURNSoapIn" />
+    </wsdl:operation>
+    <wsdl:operation name="NCT_INSERT_LCN">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">ใบอนุญาตสถานที่</wsdl:documentation>
+      <wsdl:input message="tns:NCT_INSERT_LCNSoapIn" />
+      <wsdl:output message="tns:NCT_INSERT_LCNSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="NCT_INSERT_XML_LCNSoap" type="tns:NCT_INSERT_XML_LCNSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="NCT_INSERT_LCN_FOLDER">
+      <soap:operation soapAction="http://tempuri.org/NCT_INSERT_LCN_FOLDER" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NCT_INSERT_LCN_FOLDER_NO_RETURN">
+      <soap:operation soapAction="http://tempuri.org/NCT_INSERT_LCN_FOLDER_NO_RETURN" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="NCT_INSERT_LCN">
+      <soap:operation soapAction="http://tempuri.org/NCT_INSERT_LCN" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="NCT_INSERT_XML_LCNSoap12" type="tns:NCT_INSERT_XML_LCNSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="NCT_INSERT_LCN_FOLDER">
+      <soap12:operation soapAction="http://tempuri.org/NCT_INSERT_LCN_FOLDER" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NCT_INSERT_LCN_FOLDER_NO_RETURN">
+      <soap12:operation soapAction="http://tempuri.org/NCT_INSERT_LCN_FOLDER_NO_RETURN" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="NCT_INSERT_LCN">
+      <soap12:operation soapAction="http://tempuri.org/NCT_INSERT_LCN" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="NCT_INSERT_XML_LCN">
+    <wsdl:port name="NCT_INSERT_XML_LCNSoap" binding="tns:NCT_INSERT_XML_LCNSoap">
+      <soap:address location="http://172.17.0.100/FDA_INSERT_XML/WS_INSERT_XML/NCT_INSERT_XML_LCN.asmx" />
+    </wsdl:port>
+    <wsdl:port name="NCT_INSERT_XML_LCNSoap12" binding="tns:NCT_INSERT_XML_LCNSoap12">
+      <soap12:address location="http://172.17.0.100/FDA_INSERT_XML/WS_INSERT_XML/NCT_INSERT_XML_LCN.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
